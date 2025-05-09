@@ -13,5 +13,10 @@
             <a href="details.php">Details</a>
         </nav>
     </header>
+
+    <main>
+        <h2>Grade Overview</h2>
+    </main>
+
 </body>
 </html>
