@@ -16,7 +16,16 @@
 
     <main>
         <h2>Grade Overview</h2>
-        <div 
+        <div class="grades">
+            <?php
+            //students and their grades
+            $students = ["Nicole","Charlie","Layla","Athena","Blair","Joseph"]
+            $grades = [87,98,73,79,82]
+
+
+
+            ?>
+        </div>
     </main>
 
 </body>
