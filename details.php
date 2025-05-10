@@ -30,6 +30,8 @@
                 if ($scores[$i] >=75) {
                     $status = "Pass";
                 }
+                //display subject, score, and status
+                echo "<p>{$subjects[$i]}: {$scores[$i]} - <span class='" . strtolower($status) . "'>{$status}</span></p>";
             }
             ?>
         </div>
