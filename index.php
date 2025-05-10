@@ -28,7 +28,7 @@
                 if ($grades[$i] >=75) {
                     $status = "Pass";
                 }
-                echo "<p>{$students[$i]}: {$grades[$i]} - < class='" . strtolower($status) . "'>{$status}</span></p>";
+                echo "<p>{$students[$i]}: {$grades[$i]} - <span class='" . strtolower($status) . "'>{$status}</span></p>";
             }
             ?>
         </div>
