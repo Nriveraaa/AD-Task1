@@ -20,8 +20,8 @@
         <div class="grades">
             <?php
             //arrays of students and their grades
-            $students = ["Nicole","Charlie","Layla","Athena","Blair","Joseph"]
-            $grades = [87, 98, 73, 79, 82]
+            $students = ["Nicole","Charlie","Layla","Athena","Blair","Joseph"];
+            $grades = [87, 98, 73, 79, 82];
 
             //to determine pass or fail status
             for ($i = 0; i < count($students); $i++){

@@ -14,5 +14,15 @@
             <a href="details.ph">Details</a>
         </nav>
     </header>
+
+    <main>
+        <h2>Subjects and Scores</h2>
+        <div class="grades">
+            <?php
+            $subjects = ["Math","English","AP","Science","CI"];
+            $grades = [87, 77, 75, 93, 81];
+            ?>
+        </div>
+    </main>
 </body>
 </html>
