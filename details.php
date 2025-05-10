@@ -19,8 +19,18 @@
         <h2>Subjects and Scores</h2>
         <div class="grades">
             <?php
+            //arrays of subjects and their scores
             $subjects = ["Math","English","AP","Science","CI"];
             $grades = [87, 77, 75, 93, 81];
+
+            //loop for each subject
+            for ($i = 0; $i < count($subjects); $i++) {
+                //to determine pass or fail status
+                $status = "Fail";
+                if ($scores[$i] >=75) {
+                    $status = "Pass";
+                }
+            }
             ?>
         </div>
     </main>
