@@ -18,12 +18,17 @@
         <h2>Grade Overview</h2>
         <div class="grades">
             <?php
-            //students and their grades
+            //arrays of students and their grades
             $students = ["Nicole","Charlie","Layla","Athena","Blair","Joseph"]
-            $grades = [87,98,73,79,82]
+            $grades = [87, 98, 73, 79, 82]
 
-
-
+            for ($i = 0; i < count($students); $i++){
+                $status = "Fail";
+                if ($grades[$i] >=75) {
+                    $status = "Pass";
+                }
+                
+            }
             ?>
         </div>
     </main>
