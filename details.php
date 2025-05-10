@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Grade Details</h1>
+        <nav>
+            <a href="index.php">Home</a>
+            <a href="details.ph">Details</a>
+        </nav>
+    </header>
 </body>
 </html>
