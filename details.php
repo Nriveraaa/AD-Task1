@@ -11,7 +11,7 @@
         <h1>Grade Details</h1>
         <nav>
             <a href="index.php">Home</a>
-            <a href="details.ph">Details</a>
+            <a href="details.php">Details</a>
         </nav>
     </header>
 
